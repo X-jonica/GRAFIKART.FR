@@ -1,0 +1,9 @@
+{
+   "compilerOptions": {
+      "outDir": "dist", //? Specifier le dossier de compilation
+      "target": "es2016", //? Specifier la version de javvascript a utiliser pour le compilation
+      "noEmitOnError": true, //? Ne pas compiler en cas d''erreur
+      "strict": true
+   },
+   "files": ["src/app.ts"] // run avec la commande : npx tsc --watch
+}
